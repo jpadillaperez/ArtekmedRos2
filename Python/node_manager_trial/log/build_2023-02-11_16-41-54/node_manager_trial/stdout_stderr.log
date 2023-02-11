@@ -1,0 +1,25 @@
+running egg_info
+writing C:\Users\Jorge\Documents\GitHub\Artekmed_ROS2\Python\node_manager_trial\build\node_manager_trial\node_manager_trial.egg-info\PKG-INFO
+writing dependency_links to C:\Users\Jorge\Documents\GitHub\Artekmed_ROS2\Python\node_manager_trial\build\node_manager_trial\node_manager_trial.egg-info\dependency_links.txt
+writing entry points to C:\Users\Jorge\Documents\GitHub\Artekmed_ROS2\Python\node_manager_trial\build\node_manager_trial\node_manager_trial.egg-info\entry_points.txt
+writing requirements to C:\Users\Jorge\Documents\GitHub\Artekmed_ROS2\Python\node_manager_trial\build\node_manager_trial\node_manager_trial.egg-info\requires.txt
+writing top-level names to C:\Users\Jorge\Documents\GitHub\Artekmed_ROS2\Python\node_manager_trial\build\node_manager_trial\node_manager_trial.egg-info\top_level.txt
+reading manifest file 'C:\Users\Jorge\Documents\GitHub\Artekmed_ROS2\Python\node_manager_trial\build\node_manager_trial\node_manager_trial.egg-info\SOURCES.txt'
+writing manifest file 'C:\Users\Jorge\Documents\GitHub\Artekmed_ROS2\Python\node_manager_trial\build\node_manager_trial\node_manager_trial.egg-info\SOURCES.txt'
+running build
+running build_py
+copying node_manager_trial\node_manager_trial.py -> C:\Users\Jorge\Documents\GitHub\Artekmed_ROS2\Python\node_manager_trial\build\node_manager_trial\build\lib\node_manager_trial
+running install
+running install_lib
+copying C:\Users\Jorge\Documents\GitHub\Artekmed_ROS2\Python\node_manager_trial\build\node_manager_trial\build\lib\node_manager_trial\node_manager_trial.py -> C:\Users\Jorge\Documents\GitHub\Artekmed_ROS2\Python\node_manager_trial\install\node_manager_trial\Lib\site-packages\node_manager_trial
+writing byte-compilation script 'C:\Users\Jorge\AppData\Local\Temp\tmpyxgctbec.py'
+c:\opt\ros\foxy\x64\python.exe C:\Users\Jorge\AppData\Local\Temp\tmpyxgctbec.py
+removing C:\Users\Jorge\AppData\Local\Temp\tmpyxgctbec.py
+running install_data
+running install_egg_info
+removing 'C:\Users\Jorge\Documents\GitHub\Artekmed_ROS2\Python\node_manager_trial\install\node_manager_trial\Lib\site-packages\node_manager_trial-0.0.0-py3.8.egg-info' (and everything under it)
+Copying C:\Users\Jorge\Documents\GitHub\Artekmed_ROS2\Python\node_manager_trial\build\node_manager_trial\node_manager_trial.egg-info to C:\Users\Jorge\Documents\GitHub\Artekmed_ROS2\Python\node_manager_trial\install\node_manager_trial\Lib\site-packages\node_manager_trial-0.0.0-py3.8.egg-info
+running install_scripts
+Installing node_manager_trial-script.py script to C:\Users\Jorge\Documents\GitHub\Artekmed_ROS2\Python\node_manager_trial\install\node_manager_trial\lib\node_manager_trial
+Installing node_manager_trial.exe script to C:\Users\Jorge\Documents\GitHub\Artekmed_ROS2\Python\node_manager_trial\install\node_manager_trial\lib\node_manager_trial
+writing list of installed files to 'C:\Users\Jorge\Documents\GitHub\Artekmed_ROS2\Python\node_manager_trial\build\node_manager_trial\install.log'

@@ -1,0 +1,3 @@
+[console_scripts]
+node_manager_trial = node_manager_trial.node_manager_trial:main
+

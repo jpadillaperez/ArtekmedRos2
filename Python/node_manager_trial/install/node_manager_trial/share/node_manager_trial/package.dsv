@@ -1,0 +1,6 @@
+source;share\node_manager_trial\hook\pythonpath.ps1
+source;share\node_manager_trial\hook\pythonpath.bat
+source;share\node_manager_trial\hook\pythonpath.dsv
+source;share\node_manager_trial\hook\ament_prefix_path.ps1
+source;share\node_manager_trial\hook\ament_prefix_path.bat
+source;share\node_manager_trial\hook\ament_prefix_path.dsv

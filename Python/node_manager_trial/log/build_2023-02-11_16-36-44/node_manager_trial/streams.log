@@ -1,0 +1,27 @@
+[0.813s] Invoking command in 'C:\Users\Jorge\Documents\GitHub\Artekmed_ROS2\Python\node_manager_trial': PYTHONPATH=C:\Users\Jorge\Documents\GitHub\Artekmed_ROS2\Python\node_manager_trial\install\node_manager_trial\Lib\site-packages;%PYTHONPATH% c:\opt\ros\foxy\x64\python.exe setup.py egg_info --egg-base C:\Users\Jorge\Documents\GitHub\Artekmed_ROS2\Python\node_manager_trial\build\node_manager_trial build --build-base C:\Users\Jorge\Documents\GitHub\Artekmed_ROS2\Python\node_manager_trial\build\node_manager_trial\build install --prefix C:\Users\Jorge\Documents\GitHub\Artekmed_ROS2\Python\node_manager_trial\install\node_manager_trial --record C:\Users\Jorge\Documents\GitHub\Artekmed_ROS2\Python\node_manager_trial\build\node_manager_trial\install.log --single-version-externally-managed
+[1.391s] running egg_info
+[1.407s] writing C:\Users\Jorge\Documents\GitHub\Artekmed_ROS2\Python\node_manager_trial\build\node_manager_trial\node_manager_trial.egg-info\PKG-INFO
+[1.407s] writing dependency_links to C:\Users\Jorge\Documents\GitHub\Artekmed_ROS2\Python\node_manager_trial\build\node_manager_trial\node_manager_trial.egg-info\dependency_links.txt
+[1.407s] writing entry points to C:\Users\Jorge\Documents\GitHub\Artekmed_ROS2\Python\node_manager_trial\build\node_manager_trial\node_manager_trial.egg-info\entry_points.txt
+[1.407s] writing requirements to C:\Users\Jorge\Documents\GitHub\Artekmed_ROS2\Python\node_manager_trial\build\node_manager_trial\node_manager_trial.egg-info\requires.txt
+[1.407s] writing top-level names to C:\Users\Jorge\Documents\GitHub\Artekmed_ROS2\Python\node_manager_trial\build\node_manager_trial\node_manager_trial.egg-info\top_level.txt
+[1.438s] reading manifest file 'C:\Users\Jorge\Documents\GitHub\Artekmed_ROS2\Python\node_manager_trial\build\node_manager_trial\node_manager_trial.egg-info\SOURCES.txt'
+[1.438s] writing manifest file 'C:\Users\Jorge\Documents\GitHub\Artekmed_ROS2\Python\node_manager_trial\build\node_manager_trial\node_manager_trial.egg-info\SOURCES.txt'
+[1.438s] running build
+[1.438s] running build_py
+[1.438s] copying node_manager_trial\node_manager_trial.py -> C:\Users\Jorge\Documents\GitHub\Artekmed_ROS2\Python\node_manager_trial\build\node_manager_trial\build\lib\node_manager_trial
+[1.453s] running install
+[1.453s] running install_lib
+[1.453s] copying C:\Users\Jorge\Documents\GitHub\Artekmed_ROS2\Python\node_manager_trial\build\node_manager_trial\build\lib\node_manager_trial\node_manager_trial.py -> C:\Users\Jorge\Documents\GitHub\Artekmed_ROS2\Python\node_manager_trial\install\node_manager_trial\Lib\site-packages\node_manager_trial
+[1.453s] writing byte-compilation script 'C:\Users\Jorge\AppData\Local\Temp\tmp7lw3z77e.py'
+[1.453s] c:\opt\ros\foxy\x64\python.exe C:\Users\Jorge\AppData\Local\Temp\tmp7lw3z77e.py
+[1.563s] removing C:\Users\Jorge\AppData\Local\Temp\tmp7lw3z77e.py
+[1.563s] running install_data
+[1.563s] running install_egg_info
+[1.578s] removing 'C:\Users\Jorge\Documents\GitHub\Artekmed_ROS2\Python\node_manager_trial\install\node_manager_trial\Lib\site-packages\node_manager_trial-0.0.0-py3.8.egg-info' (and everything under it)
+[1.578s] Copying C:\Users\Jorge\Documents\GitHub\Artekmed_ROS2\Python\node_manager_trial\build\node_manager_trial\node_manager_trial.egg-info to C:\Users\Jorge\Documents\GitHub\Artekmed_ROS2\Python\node_manager_trial\install\node_manager_trial\Lib\site-packages\node_manager_trial-0.0.0-py3.8.egg-info
+[1.594s] running install_scripts
+[1.625s] Installing node_manager_trial-script.py script to C:\Users\Jorge\Documents\GitHub\Artekmed_ROS2\Python\node_manager_trial\install\node_manager_trial\lib\node_manager_trial
+[1.641s] Installing node_manager_trial.exe script to C:\Users\Jorge\Documents\GitHub\Artekmed_ROS2\Python\node_manager_trial\install\node_manager_trial\lib\node_manager_trial
+[1.641s] writing list of installed files to 'C:\Users\Jorge\Documents\GitHub\Artekmed_ROS2\Python\node_manager_trial\build\node_manager_trial\install.log'
+[1.672s] Invoked command in 'C:\Users\Jorge\Documents\GitHub\Artekmed_ROS2\Python\node_manager_trial' returned '0': PYTHONPATH=C:\Users\Jorge\Documents\GitHub\Artekmed_ROS2\Python\node_manager_trial\install\node_manager_trial\Lib\site-packages;%PYTHONPATH% c:\opt\ros\foxy\x64\python.exe setup.py egg_info --egg-base C:\Users\Jorge\Documents\GitHub\Artekmed_ROS2\Python\node_manager_trial\build\node_manager_trial build --build-base C:\Users\Jorge\Documents\GitHub\Artekmed_ROS2\Python\node_manager_trial\build\node_manager_trial\build install --prefix C:\Users\Jorge\Documents\GitHub\Artekmed_ROS2\Python\node_manager_trial\install\node_manager_trial --record C:\Users\Jorge\Documents\GitHub\Artekmed_ROS2\Python\node_manager_trial\build\node_manager_trial\install.log --single-version-externally-managed
