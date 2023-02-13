@@ -10,6 +10,7 @@ using Newtonsoft.Json;
 
 public class UserStringHash : MonoBehaviour
 {
+    public GameObject feedObjectPrefab;
     public struct sentMessage
     {
         //structure of the message sent to node manager
@@ -33,7 +34,7 @@ public class UserStringHash : MonoBehaviour
     public GameObject Square;
     public String squareUID = "Square";
 
-    public string userUID = "user2";
+    public string userUID = "user1";
 
     INode listenerNode;
     INode talkerNode;
@@ -92,9 +93,10 @@ public class UserStringHash : MonoBehaviour
                     Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
                     if (Physics.Raycast(ray, out hit, Mathf.Infinity))
                     {
-                        Debug.Log("Object Grabbed: " + hit.transform.name); //edit to recognize new objects
+                        Debug.Log("Object Grabbed: " + hit.transform.GetComponent<FeedObjectFeatures>().UID);
+                        //Debug.Log("Object Grabbed: " + hit.transform.name); //edit to recognize new objects
                         _mousePressed = true;
-                        _selectedObject = hit.transform.name;
+                        _selectedObject = hit.transform.GetComponent<FeedObjectFeatures>().UID;
                         createMessage("GrabObject", _selectedObject, userUID);
                         //hit.transform.GetInstanceID(); in the future
 
@@ -175,13 +177,16 @@ public class UserStringHash : MonoBehaviour
             //add object to dictionary with position
             //generate object in unity
             Debug.Log("Received Created Object!");
-            GameObject tempObject = GameObject.CreatePrimitive(PrimitiveType.Sphere);
+
+            GameObject tempObject = Instantiate(feedObjectPrefab, new Vector3(msg.Position[0], msg.Position[1], msg.Position[2]), Quaternion.identity);
             tempObject.transform.SetParent(Sphere.transform.parent);
+            tempObject.GetComponent<FeedObjectFeatures>().UID = msg.Obj_id;
             tempObject.transform.name = msg.Obj_id;
+
             _selectedObject = msg.Obj_id;
-            objectsID2GameObjects.Add(msg.Obj_id, GameObject.CreatePrimitive(PrimitiveType.Sphere));
+            objectsID2GameObjects.Add(msg.Obj_id, tempObject);
             objectsID2Positions.Add(msg.Obj_id, new Vector3(msg.Position[0], msg.Position[1], msg.Position[2]));
-            objectsID2GameObjects[msg.Obj_id].transform.position = new Vector3(msg.Position[0], msg.Position[1], msg.Position[2]);
+
         }
 
     }
