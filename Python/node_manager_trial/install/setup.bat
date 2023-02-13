@@ -6,11 +6,11 @@
 :: packages contained in this prefix path.
 
 :: source chained prefixes
-call:_colcon_prefix_chain_bat_call_script "c:\opt\ros2_dotnet_ws\install\local_setup.bat"
 call:_colcon_prefix_chain_bat_call_script "c:\opt\ros\foxy\x64\local_setup.bat"
-call:_colcon_prefix_chain_bat_call_script "c:\opt\ros2_dotnet_ws\install\\local_setup.bat"
+call:_colcon_prefix_chain_bat_call_script "c:\opt\ros2_dotnet_ws\install\local_setup.bat"
 call:_colcon_prefix_chain_bat_call_script "c:\opt\ros\foxy\x64\\local_setup.bat"
-call:_colcon_prefix_chain_bat_call_script "C:\Users\Jorge\Documents\GitHub\Artekmed_ROS2\Python\node_manager_trial\install\\local_setup.bat"
+call:_colcon_prefix_chain_bat_call_script "c:\opt\ros2_dotnet_ws\install\\local_setup.bat"
+call:_colcon_prefix_chain_bat_call_script "c:\Users\Jorge\Documents\GitHub\ArtekmedRos2\Python\node_manager_trial\install\\local_setup.bat"
 
 :: source this prefix
 call:_colcon_prefix_chain_bat_call_script "%%~dp0local_setup.bat"

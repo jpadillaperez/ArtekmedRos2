@@ -1,9 +1,9 @@
+import json
+import uuid
+
 import rclpy
 from rclpy.node import Node
-
 from std_msgs.msg import String
-
-import json
 
 
 class Position:
@@ -37,20 +37,12 @@ class sentMessage:
 
 
 Sphere = Gameobject()
-Sphere.position = Position()
+Sphere.position = Position(-1.5, 0, 5)
 sphereUID = "Sphere"
 
 Square = Gameobject()
-Square.position = Position()
+Square.position = Position(1.5, 0, 5)
 squareUID = "Square"
-
-Sphere.position.x = -1.5
-Sphere.position.y = 0
-Sphere.position.z = 5
-
-Square.position.x = 1.5
-Square.position.y = 0
-Square.position.z = 5
 
 objects = {sphereUID: Sphere, squareUID: Square}
 
@@ -62,16 +54,15 @@ class node_manager(Node):
         self.publisher_ = self.create_publisher(String, 'ManagerNodeCommands', 10)
         print("Publisher created")
 
-        self.commands = { 'ChangePosition': self.ChangePosition, 'GrabObject': self.GrabObject, 'ReleaseObject': self.ReleaseObject}
+        self.commands = { 'ChangePosition': self.ChangePosition, 'GrabObject': self.GrabObject, 'ReleaseObject': self.ReleaseObject, 'CreateObject': self.CreateObject}
 
     def applyFunctionality(self, json_msg):
         print("Received Message!")
         msg = receivedMessage(**json.loads(json_msg.data))
         print(json_msg)
 
-        if msg.Obj_id in objects:
-            func = self.commands[msg.Function]
-            func(msg.Obj_id, msg.User_id, msg.Position)
+        func = self.commands[msg.Function]
+        func(msg.Obj_id, msg.User_id, msg.Position)
 
     def ChangePosition(self, object_id, user_id, pose):
         if (objects[object_id].isLockedBy == user_id):
@@ -80,7 +71,6 @@ class node_manager(Node):
             msg = self.GenerateMessage(object_id)
             print("Position Changed")
             self.publisher_.publish(msg)
-            print("Sent Message!")
 
     def GenerateMessage(self, Obj_id):
         msg = sentMessage(Obj_id, [objects[Obj_id].position.x, objects[Obj_id].position.y, objects[Obj_id].position.z] )
@@ -96,6 +86,17 @@ class node_manager(Node):
         if (objects[object_id].isLockedBy == user_id):
             objects[object_id].isLockedBy = ""
 
+    def CreateObject(self, _, user_id, position):
+        #add object to dictionary with position
+        object_id = str(uuid.uuid4())
+        tempObj = Gameobject()
+        tempObj.position = Position(position[0], position[1], 5)
+        objects[object_id] = tempObj
+        objects[object_id].isLockedBy = user_id
+
+        msg = self.GenerateMessage(object_id)
+        print("Created object")
+        self.publisher_.publish(msg)
 
 
 def main(args=None):
