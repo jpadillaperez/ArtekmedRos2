@@ -20,7 +20,6 @@ class Gameobject:
     def setPosition(self, x, y, z):
         self.position = Position(x,y,z)
 
-
 class receivedMessage:
 #structure of the message sent to node manager
     def __init__(self, Obj_id, User_id, Function, Position):
@@ -31,9 +30,10 @@ class receivedMessage:
 
 class sentMessage:
     #structure of the message received by each user
-    def __init__(self, Obj_id, Position):
+    def __init__(self, Obj_id, Position = Position(), Active = True):
         self.Obj_id = Obj_id
         self.Position = Position
+        self.Active = Active
 
 
 Sphere = Gameobject()
@@ -54,7 +54,7 @@ class node_manager(Node):
         self.publisher_ = self.create_publisher(String, 'ManagerNodeCommands', 10)
         print("Publisher created")
 
-        self.commands = { 'ChangePosition': self.ChangePosition, 'GrabObject': self.GrabObject, 'ReleaseObject': self.ReleaseObject, 'CreateObject': self.CreateObject}
+        self.commands = { 'ChangePosition': self.ChangePosition, 'GrabObject': self.GrabObject, 'ReleaseObject': self.ReleaseObject, 'CreateObject': self.CreateObject, 'DeleteObject': self.DeleteObject}
 
     def applyFunctionality(self, json_msg):
         print("Received Message!")
@@ -97,6 +97,14 @@ class node_manager(Node):
         msg = self.GenerateMessage(object_id)
         print("Created object")
         self.publisher_.publish(msg)
+    
+    def DeleteObject(self, object_id, user_id, _):
+        #delete object from dictionary with position
+        msg = sentMessage(object_id, [objects[object_id].position.x, objects[object_id].position.y, objects[object_id].position.z], False)
+        rosMsg = String()
+        rosMsg.data = json.dumps(msg, default=lambda o: o.__dict__, sort_keys=True, indent=4)
+        del objects[object_id]
+        self.publisher_.publish(rosMsg)
 
 
 def main(args=None):

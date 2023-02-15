@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"name": "ros2-dotnet-unity",
+			"path": "../ros2-dotnet-unity"
+		},
+		{
+			"name": "ArtekmedRos2",
+			"path": "."
+		},
+		{
+			"name": "ros2fordotnet",
+			"path": "../../Unity Projects/ros2fordotnet"
+		}
+	],
+	"settings": {}
+}
