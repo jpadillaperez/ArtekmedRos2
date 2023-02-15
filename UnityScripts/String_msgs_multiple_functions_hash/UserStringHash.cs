@@ -26,6 +26,7 @@ public class UserStringHash : MonoBehaviour
         public string Obj_id;
         public float[] Position;
         //args[0-2] -> Position x,y,z
+        public bool Active;
     }
 
     public GameObject Sphere;
@@ -119,6 +120,19 @@ public class UserStringHash : MonoBehaviour
                     createMessage("ChangePosition", _selectedObject, userUID, result);
                 }
             }
+            else if (Input.GetMouseButton(1)) //DeleteObject
+            {
+                RaycastHit hit;
+                Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+                if (Physics.Raycast(ray, out hit, Mathf.Infinity))
+                {
+                    Debug.Log("Object Deleted: " + hit.transform.GetComponent<FeedObjectFeatures>().UID);
+                    //_mousePressed = true;
+                    _selectedObject = hit.transform.GetComponent<FeedObjectFeatures>().UID;
+                    createMessage("DeleteObject", _selectedObject, userUID);
+                    //hit.transform.GetInstanceID(); in the future
+                }
+            }
             else //ReleaseObject
             {
                 if (_mousePressed == true)
@@ -168,9 +182,21 @@ public class UserStringHash : MonoBehaviour
         //Debug.Log("Message Detected!");
         if (objectsID2GameObjects.ContainsKey(msg.Obj_id))
         {
-            Debug.Log("Selected");
-            objectsID2GameObjects[msg.Obj_id].transform.position = new Vector3(msg.Position[0], msg.Position[1], msg.Position[2]);
-            objectsID2Positions[msg.Obj_id] = new Vector3(msg.Position[0], msg.Position[1], msg.Position[2]);
+            if (!msg.Active)
+            {
+                //Remove object from dictionary with position
+                //Remove object from unity
+                Debug.Log("Removed Object!");
+                GameObject.Destroy(objectsID2GameObjects[msg.Obj_id]);
+                objectsID2GameObjects.Remove(msg.Obj_id);
+                objectsID2Positions.Remove(msg.Obj_id);
+            }
+            else
+            {
+                Debug.Log("Selected");
+                objectsID2GameObjects[msg.Obj_id].transform.position = new Vector3(msg.Position[0], msg.Position[1], msg.Position[2]);
+                objectsID2Positions[msg.Obj_id] = new Vector3(msg.Position[0], msg.Position[1], msg.Position[2]);
+            }
         }
         else
         {
@@ -179,14 +205,13 @@ public class UserStringHash : MonoBehaviour
             Debug.Log("Received Created Object!");
 
             GameObject tempObject = Instantiate(feedObjectPrefab, new Vector3(msg.Position[0], msg.Position[1], msg.Position[2]), Quaternion.identity);
-            tempObject.transform.SetParent(Sphere.transform.parent);
+            tempObject.transform.SetParent(GameObject.Find("MixedRealitySceneContent").transform);
             tempObject.GetComponent<FeedObjectFeatures>().UID = msg.Obj_id;
             tempObject.transform.name = msg.Obj_id;
 
             _selectedObject = msg.Obj_id;
             objectsID2GameObjects.Add(msg.Obj_id, tempObject);
             objectsID2Positions.Add(msg.Obj_id, new Vector3(msg.Position[0], msg.Position[1], msg.Position[2]));
-
         }
 
     }
