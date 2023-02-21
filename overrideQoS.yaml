@@ -1,0 +1,9 @@
+# durability_override.yaml
+
+/ManagerNodeCommands:
+  durability: transient_local
+  history: keep_all
+
+/UserReports:
+  durability: transient_local
+  history: keep_all

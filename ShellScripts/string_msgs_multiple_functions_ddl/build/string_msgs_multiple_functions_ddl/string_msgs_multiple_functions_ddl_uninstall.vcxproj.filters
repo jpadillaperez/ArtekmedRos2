@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\string_msgs_multiple_functions_ddl\build\string_msgs_multiple_functions_ddl\CMakeFiles\09ea34ae1fb2615c0bf17f3570cb44a7\string_msgs_multiple_functions_ddl_uninstall.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\string_msgs_multiple_functions_ddl\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\string_msgs_multiple_functions_ddl\build\string_msgs_multiple_functions_ddl\CMakeFiles\string_msgs_multiple_functions_ddl_uninstall" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{AAC9D0D7-6A05-3828-9649-12980DD9D32B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

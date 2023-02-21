@@ -11,6 +11,9 @@
 		{
 			"name": "ros2fordotnet",
 			"path": "../../Unity Projects/ros2fordotnet"
+		},
+		{
+			"path": "../../../../../opt"
 		}
 	],
 	"settings": {}

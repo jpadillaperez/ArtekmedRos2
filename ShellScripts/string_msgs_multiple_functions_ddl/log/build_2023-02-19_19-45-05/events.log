@@ -1,0 +1,9 @@
+[0.000000] (-) TimerEvent: {}
+[0.000000] (string_msgs_multiple_functions_ddl) JobQueued: {'identifier': 'string_msgs_multiple_functions_ddl', 'dependencies': OrderedDict()}
+[0.016000] (string_msgs_multiple_functions_ddl) JobStarted: {'identifier': 'string_msgs_multiple_functions_ddl'}
+[0.109000] (-) TimerEvent: {}
+[0.203000] (string_msgs_multiple_functions_ddl) JobProgress: {'identifier': 'string_msgs_multiple_functions_ddl', 'progress': 'cmake'}
+[0.203000] (string_msgs_multiple_functions_ddl) StderrLine: {'line': b'Traceback (most recent call last):\n  File "c:\\opt\\ros\\foxy\\x64\\lib\\site-packages\\colcon_core\\executor\\__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "c:\\opt\\ros\\foxy\\x64\\lib\\site-packages\\colcon_core\\task\\__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "c:\\opt\\ros\\foxy\\x64\\lib\\site-packages\\colcon_ros\\task\\ament_cmake\\build.py", line 59, in build\n    rc = await extension.build(\n  File "c:\\opt\\ros\\foxy\\x64\\lib\\site-packages\\colcon_cmake\\task\\cmake\\build.py", line 87, in build\n    rc = await self._reconfigure(args, env)\n  File "c:\\opt\\ros\\foxy\\x64\\lib\\site-packages\\colcon_cmake\\task\\cmake\\build.py", line 153, in _reconfigure\n    raise RuntimeError(\nRuntimeError: VisualStudioVersion is not set, please run within a Visual Studio Command Prompt.\n'}
+[0.219000] (-) TimerEvent: {}
+[0.219000] (string_msgs_multiple_functions_ddl) JobEnded: {'identifier': 'string_msgs_multiple_functions_ddl', 'rc': 1}
+[0.234000] (-) EventReactorShutdown: {}

@@ -30,7 +30,8 @@ class receivedMessage:
 
 class sentMessage:
     #structure of the message received by each user
-    def __init__(self, Obj_id, Position = Position(), Active = True):
+    def __init__(self, Obj_id = "", Position = [0,0,0], Active = True, User_id = ""):
+        self.User_id = User_id
         self.Obj_id = Obj_id
         self.Position = Position
         self.Active = Active
@@ -54,7 +55,7 @@ class node_manager(Node):
         self.publisher_ = self.create_publisher(String, 'ManagerNodeCommands', 10)
         print("Publisher created")
 
-        self.commands = { 'ChangePosition': self.ChangePosition, 'GrabObject': self.GrabObject, 'ReleaseObject': self.ReleaseObject, 'CreateObject': self.CreateObject, 'DeleteObject': self.DeleteObject}
+        self.commands = { 'ChangePosition': self.ChangePosition, 'GrabObject': self.GrabObject, 'ReleaseObject': self.ReleaseObject, 'CreateObject': self.CreateObject, 'DeleteObject': self.DeleteObject, "UserJoin": self.UserJoin}
 
     def applyFunctionality(self, json_msg):
         print("Received Message!")
@@ -104,6 +105,16 @@ class node_manager(Node):
         rosMsg = String()
         rosMsg.data = json.dumps(msg, default=lambda o: o.__dict__, sort_keys=True, indent=4)
         del objects[object_id]
+        self.publisher_.publish(rosMsg)
+
+    def UserJoin(self, object_id, user_id, _):
+        #add user
+        user_id = str(uuid.uuid4())
+
+        msg = sentMessage(User_id=user_id)
+        rosMsg = String()
+        rosMsg.data = json.dumps(msg, default=lambda o: o.__dict__, sort_keys=True, indent=4)
+        print(rosMsg.data)
         self.publisher_.publish(rosMsg)
 
 

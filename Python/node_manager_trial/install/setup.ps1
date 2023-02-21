@@ -26,7 +26,7 @@ _colcon_prefix_chain_powershell_source_script "c:\opt\ros\foxy\x64\local_setup.p
 _colcon_prefix_chain_powershell_source_script "c:\opt\ros2_dotnet_ws\install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "c:\opt\ros\foxy\x64\\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "c:\opt\ros2_dotnet_ws\install\\local_setup.ps1"
-_colcon_prefix_chain_powershell_source_script "c:\Users\Jorge\Documents\GitHub\ArtekmedRos2\Python\node_manager_trial\install\\local_setup.ps1"
+_colcon_prefix_chain_powershell_source_script "C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\Python\node_manager_trial\install\\local_setup.ps1"
 
 # source this prefix
 $env:COLCON_CURRENT_PREFIX=(Split-Path $PSCommandPath -Parent)

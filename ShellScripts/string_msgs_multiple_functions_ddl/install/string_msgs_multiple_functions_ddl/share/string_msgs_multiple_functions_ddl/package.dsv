@@ -1,0 +1,6 @@
+source;share\string_msgs_multiple_functions_ddl\hook\cmake_prefix_path.ps1
+source;share\string_msgs_multiple_functions_ddl\hook\cmake_prefix_path.bat
+source;share\string_msgs_multiple_functions_ddl\hook\cmake_prefix_path.dsv
+source;share/string_msgs_multiple_functions_ddl/local_setup.bat
+source;share/string_msgs_multiple_functions_ddl/local_setup.dsv
+source;share/string_msgs_multiple_functions_ddl/local_setup.ps1

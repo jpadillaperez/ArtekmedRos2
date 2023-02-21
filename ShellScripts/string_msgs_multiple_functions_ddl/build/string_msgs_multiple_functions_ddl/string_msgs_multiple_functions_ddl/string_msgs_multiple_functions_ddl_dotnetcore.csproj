@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+   <TargetFramework>netcoreapp2.0</TargetFramework>
+   <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+   <OutputType>Exe</OutputType>
+   <OutputPath>C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\string_msgs_multiple_functions_ddl\build\string_msgs_multiple_functions_ddl\Release</OutputPath>
+   <AssemblyName>string_msgs_multiple_functions_ddl</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\string_msgs_multiple_functions_ddl\src\string_msgs_multiple_functions_ddl.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="C:\opt\ros2_dotnet_ws\install\rcldotnet\lib\rcldotnet\dotnet\rcldotnet_assemblies.dll" /> <Reference Include="C:\opt\ros2_dotnet_ws\install\rcldotnet_common\lib\rcldotnet_common\dotnet\rcldotnet_common.dll" /> <Reference Include="C:\opt\ros2_dotnet_ws\install\std_msgs\lib\std_msgs\dotnet\std_msgs_assemblies.dll" /> <Reference Include="C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\Plugins\Json130r2\Bin\netstandard2.0\newtonsoft.json.dll" />
+  </ItemGroup>
+
+   <ItemGroup>
+    
+  </ItemGroup>
+
+  <PropertyGroup>
+     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+     <GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
+     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+     <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
+     <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
+  </PropertyGroup>
+</Project>
