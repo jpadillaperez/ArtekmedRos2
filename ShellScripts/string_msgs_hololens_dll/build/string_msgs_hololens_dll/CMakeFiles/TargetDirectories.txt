@@ -1,0 +1,7 @@
+C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/build/string_msgs_hololens_dll/CMakeFiles/uninstall.dir
+C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/build/string_msgs_hololens_dll/CMakeFiles/string_msgs_hololens_dll_uninstall.dir
+C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/build/string_msgs_hololens_dll/CMakeFiles/string_msgs_hololens_dll.dir
+C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/build/string_msgs_hololens_dll/CMakeFiles/INSTALL.dir
+C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/build/string_msgs_hololens_dll/CMakeFiles/RUN_TESTS.dir
+C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/build/string_msgs_hololens_dll/CMakeFiles/ALL_BUILD.dir
+C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/build/string_msgs_hololens_dll/CMakeFiles/ZERO_CHECK.dir

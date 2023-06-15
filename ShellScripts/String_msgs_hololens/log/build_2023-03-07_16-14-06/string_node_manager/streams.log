@@ -1,0 +1,295 @@
+[0.172s] Invoking command in 'c:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\String_msgs_hololens\build\string_node_manager': CMAKE_PREFIX_PATH=%CMAKE_PREFIX_PATH%;c:\opt\ros2_dotnet_ws\install\sensor_msgs_py c:\opt\ros\foxy\x64\Scripts\cmake.EXE c:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\String_msgs_hololens -DCMAKE_INSTALL_PREFIX=c:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\String_msgs_hololens\install\string_node_manager
+[0.360s] -- Selecting Windows SDK version 10.0.22000.0 to target Windows 10.0.22621.
+[0.422s] -- Found ament_cmake: 0.9.9 (C:/opt/ros/foxy/x64/share/ament_cmake/cmake)
+[0.516s] -- Using PYTHON_EXECUTABLE: C:/opt/ros/foxy/x64/python.exe
+[1.313s] -- Found rcldotnet: 0.0.0 (C:/opt/ros2_dotnet_ws/install/rcldotnet/share/rcldotnet/cmake)
+[1.485s] -- Found rosidl_adapter: 1.3.0 (C:/opt/ros2_dotnet_ws/install/rosidl_adapter/share/rosidl_adapter/cmake)
+[1.578s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+[1.891s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+[2.078s] -- Found rmw_implementation_cmake: 1.0.3 (C:/opt/ros/foxy/x64/share/rmw_implementation_cmake/cmake)
+[2.094s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.157s] -- Found rcldotnet_common: 0.0.0 (C:/opt/ros2_dotnet_ws/install/rcldotnet_common/share/rcldotnet_common/cmake)
+[2.157s] -- Found dotnet_cmake_module: 0.0.0 (C:/opt/ros2_dotnet_ws/install/dotnet_cmake_module/share/dotnet_cmake_module/cmake)
+[2.344s] CMake Warning (dev) at C:/opt/ros/foxy/x64/Lib/site-packages/cmake/data/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):
+[2.344s]   The package name passed to `find_package_handle_standard_args`
+[2.344s]   (DOTNET_CORE) does not match the name of the calling package (DotNetCore).
+[2.344s]   This can lead to problems in calling code that expects `find_package`
+[2.344s]   result variables (e.g., `_FOUND`) to follow a certain pattern.
+[2.344s] Call Stack (most recent call first):
+[2.344s]   C:/opt/ros2_dotnet_ws/install/dotnet_cmake_module/share/dotnet_cmake_module/cmake/Modules/dotnet/FindDotNetCore.cmake:37 (find_package_handle_standard_args)
+[2.344s]   C:/opt/ros2_dotnet_ws/install/dotnet_cmake_module/share/dotnet_cmake_module/cmake/Modules/FindCSBuild.cmake:20 (find_package)
+[2.344s]   C:/opt/ros2_dotnet_ws/install/dotnet_cmake_module/share/dotnet_cmake_module/cmake/Modules/FindDotNETExtra.cmake:15 (find_package)
+[2.344s]   CMakeLists.txt:14 (find_package)
+[2.344s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.344s] 
+[2.344s] -- Found .NET Core: 7.0.101
+[2.344s] -- Using Framework: netcoreapp2.0
+[2.344s] -- Using Framework: netcoreapp2.0
+[2.344s] -- Using Runtime: win-x64
+[2.360s] -- Found std_msgs: 2.0.5 (C:/opt/ros2_dotnet_ws/install/std_msgs/share/std_msgs/cmake)
+[2.641s] -- Configuring done
+[3.344s] -- Generating done
+[3.391s] -- Build files have been written to: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/build/string_node_manager
+[3.422s] Invoked command in 'c:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\String_msgs_hololens\build\string_node_manager' returned '0': CMAKE_PREFIX_PATH=%CMAKE_PREFIX_PATH%;c:\opt\ros2_dotnet_ws\install\sensor_msgs_py c:\opt\ros\foxy\x64\Scripts\cmake.EXE c:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\String_msgs_hololens -DCMAKE_INSTALL_PREFIX=c:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\String_msgs_hololens\install\string_node_manager
+[3.422s] Invoking command in 'c:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\String_msgs_hololens\build\string_node_manager': CL=/MP CMAKE_PREFIX_PATH=%CMAKE_PREFIX_PATH%;c:\opt\ros2_dotnet_ws\install\sensor_msgs_py c:\opt\ros\foxy\x64\Scripts\cmake.EXE --build c:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\String_msgs_hololens\build\string_node_manager --config Release
+[3.828s] Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+[3.828s] Copyright (C) Microsoft Corporation. All rights reserved.
+[3.828s] 
+[4.750s]   C:/opt/ros/foxy/x64/Lib/site-packages/cmake/data/bin/cmake.exe;-version;C:/Program Files/dotnet/dotnet.exe restore;-r;win-x64 string_node_manager_dotnetcore.csproj; C:/Program Files/dotnet/dotnet.exe publish;-r;win-x64 string_node_manager_dotnetcore.csproj -> C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/build/string_node_manager/string_node_manager
+[5.078s]   cmake version 3.18.2
+[5.078s]   
+[5.078s]   CMake suite maintained and supported by Kitware (kitware.com/cmake).
+[6.969s]     Determining projects to restore...
+[7.016s] C:\Program Files\dotnet\sdk\7.0.101\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.EolTargetFrameworks.targets(28,5): warning NETSDK1138: The target framework 'netcoreapp2.0' is out of support and will not receive security updates in the future. Please refer to https://aka.ms/dotnet-core-support for more information about the support policy. [C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\String_msgs_hololens\build\string_node_manager\string_node_manager\string_node_manager_dotnetcore.csproj] [C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\String_msgs_hololens\build\string_node_manager\string_node_manager.vcxproj]
+[7.219s] C:\Program Files\dotnet\sdk\7.0.101\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.EolTargetFrameworks.targets(28,5): warning NETSDK1138: The target framework 'netcoreapp2.0' is out of support and will not receive security updates in the future. Please refer to https://aka.ms/dotnet-core-support for more information about the support policy. [C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\String_msgs_hololens\build\string_node_manager\string_node_manager\string_node_manager_dotnetcore.csproj] [C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\String_msgs_hololens\build\string_node_manager\string_node_manager.vcxproj]
+[8.235s]     Restored C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\String_msgs_hololens\build\string_node_manager\string_node_manager\string_node_manager_dotnetcore.csproj (in 665 ms).
+[9.750s]   MSBuild version 17.4.0+18d5aef85 for .NET
+[10.985s]     Determining projects to restore...
+[11.016s] C:\Program Files\dotnet\sdk\7.0.101\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.EolTargetFrameworks.targets(28,5): warning NETSDK1138: The target framework 'netcoreapp2.0' is out of support and will not receive security updates in the future. Please refer to https://aka.ms/dotnet-core-support for more information about the support policy. [C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\String_msgs_hololens\build\string_node_manager\string_node_manager\string_node_manager_dotnetcore.csproj] [C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\String_msgs_hololens\build\string_node_manager\string_node_manager.vcxproj]
+[11.157s] C:\Program Files\dotnet\sdk\7.0.101\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.EolTargetFrameworks.targets(28,5): warning NETSDK1138: The target framework 'netcoreapp2.0' is out of support and will not receive security updates in the future. Please refer to https://aka.ms/dotnet-core-support for more information about the support policy. [C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\String_msgs_hololens\build\string_node_manager\string_node_manager\string_node_manager_dotnetcore.csproj] [C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\String_msgs_hololens\build\string_node_manager\string_node_manager.vcxproj]
+[12.110s]     Restored C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\String_msgs_hololens\build\string_node_manager\string_node_manager\string_node_manager_dotnetcore.csproj (in 623 ms).
+[12.375s] C:\Program Files\dotnet\sdk\7.0.101\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.EolTargetFrameworks.targets(28,5): warning NETSDK1138: The target framework 'netcoreapp2.0' is out of support and will not receive security updates in the future. Please refer to https://aka.ms/dotnet-core-support for more information about the support policy. [C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\String_msgs_hololens\build\string_node_manager\string_node_manager\string_node_manager_dotnetcore.csproj] [C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\String_msgs_hololens\build\string_node_manager\string_node_manager.vcxproj]
+[17.110s] CSC : warning CS1668: Invalid search path 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\atlmfc\lib\x64' specified in 'LIB environment variable' -- 'directory does not exist' [C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\String_msgs_hololens\build\string_node_manager\string_node_manager\string_node_manager_dotnetcore.csproj] [C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\String_msgs_hololens\build\string_node_manager\string_node_manager.vcxproj]
+[18.407s]     string_node_manager_dotnetcore -> C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\String_msgs_hololens\build\string_node_manager\Release\netcoreapp2.0\win-x64\string_node_manager.dll
+[18.625s]     string_node_manager_dotnetcore -> C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\String_msgs_hololens\build\string_node_manager\Release\netcoreapp2.0\win-x64\publish\
+[18.860s] Invoked command in 'c:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\String_msgs_hololens\build\string_node_manager' returned '0': CL=/MP CMAKE_PREFIX_PATH=%CMAKE_PREFIX_PATH%;c:\opt\ros2_dotnet_ws\install\sensor_msgs_py c:\opt\ros\foxy\x64\Scripts\cmake.EXE --build c:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\String_msgs_hololens\build\string_node_manager --config Release
+[19.094s] Invoking command in 'c:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\String_msgs_hololens\build\string_node_manager': CMAKE_PREFIX_PATH=%CMAKE_PREFIX_PATH%;c:\opt\ros2_dotnet_ws\install\sensor_msgs_py c:\opt\ros\foxy\x64\Scripts\cmake.EXE --install c:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\String_msgs_hololens\build\string_node_manager --config Release
+[19.297s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet
+[19.297s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/api-ms-win-core-console-l1-1-0.dll
+[19.297s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/api-ms-win-core-datetime-l1-1-0.dll
+[19.297s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/api-ms-win-core-debug-l1-1-0.dll
+[19.297s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/api-ms-win-core-errorhandling-l1-1-0.dll
+[19.297s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/api-ms-win-core-file-l1-1-0.dll
+[19.297s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/api-ms-win-core-file-l1-2-0.dll
+[19.297s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/api-ms-win-core-file-l2-1-0.dll
+[19.297s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/api-ms-win-core-handle-l1-1-0.dll
+[19.297s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/api-ms-win-core-heap-l1-1-0.dll
+[19.297s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/api-ms-win-core-interlocked-l1-1-0.dll
+[19.297s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/api-ms-win-core-libraryloader-l1-1-0.dll
+[19.297s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/api-ms-win-core-localization-l1-2-0.dll
+[19.313s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/api-ms-win-core-memory-l1-1-0.dll
+[19.313s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/api-ms-win-core-namedpipe-l1-1-0.dll
+[19.313s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/api-ms-win-core-processenvironment-l1-1-0.dll
+[19.313s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/api-ms-win-core-processthreads-l1-1-0.dll
+[19.313s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/api-ms-win-core-processthreads-l1-1-1.dll
+[19.313s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/api-ms-win-core-profile-l1-1-0.dll
+[19.313s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/api-ms-win-core-rtlsupport-l1-1-0.dll
+[19.313s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/api-ms-win-core-string-l1-1-0.dll
+[19.313s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/api-ms-win-core-synch-l1-1-0.dll
+[19.313s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/api-ms-win-core-synch-l1-2-0.dll
+[19.313s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/api-ms-win-core-sysinfo-l1-1-0.dll
+[19.313s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/api-ms-win-core-timezone-l1-1-0.dll
+[19.313s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/api-ms-win-core-util-l1-1-0.dll
+[19.313s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/api-ms-win-crt-conio-l1-1-0.dll
+[19.313s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/api-ms-win-crt-convert-l1-1-0.dll
+[19.328s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/api-ms-win-crt-environment-l1-1-0.dll
+[19.328s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/api-ms-win-crt-filesystem-l1-1-0.dll
+[19.328s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/api-ms-win-crt-heap-l1-1-0.dll
+[19.328s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/api-ms-win-crt-locale-l1-1-0.dll
+[19.328s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/api-ms-win-crt-math-l1-1-0.dll
+[19.328s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/api-ms-win-crt-multibyte-l1-1-0.dll
+[19.328s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/api-ms-win-crt-private-l1-1-0.dll
+[19.328s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/api-ms-win-crt-process-l1-1-0.dll
+[19.328s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/api-ms-win-crt-runtime-l1-1-0.dll
+[19.328s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/api-ms-win-crt-stdio-l1-1-0.dll
+[19.328s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/api-ms-win-crt-string-l1-1-0.dll
+[19.328s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/api-ms-win-crt-time-l1-1-0.dll
+[19.328s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/api-ms-win-crt-utility-l1-1-0.dll
+[19.328s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/builtin_interfaces_assemblies.dll
+[19.328s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/builtin_interfaces_assemblies.pdb
+[19.328s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/clrcompression.dll
+[19.328s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/clretwrc.dll
+[19.328s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/clrjit.dll
+[19.328s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/coreclr.dll
+[19.344s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/dbgshim.dll
+[19.344s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/hostfxr.dll
+[19.344s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/hostpolicy.dll
+[19.344s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/Microsoft.CSharp.dll
+[19.344s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/Microsoft.DiaSymReader.Native.amd64.dll
+[19.344s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/Microsoft.VisualBasic.dll
+[19.344s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/Microsoft.Win32.Primitives.dll
+[19.360s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/Microsoft.Win32.Registry.dll
+[19.360s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/mscordaccore.dll
+[19.360s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/mscordaccore_amd64_amd64_4.6.26614.01.dll
+[19.360s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/mscordbi.dll
+[19.360s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/mscorlib.dll
+[19.360s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/mscorrc.debug.dll
+[19.360s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/mscorrc.dll
+[19.360s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/netstandard.dll
+[19.360s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/rcldotnet_assemblies.dll
+[19.360s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/rcldotnet_assemblies.pdb
+[19.360s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/rcldotnet_common.dll
+[19.360s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/rcldotnet_common.pdb
+[19.360s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/sos.dll
+[19.360s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/SOS.NETCore.dll
+[19.360s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/sos_amd64_amd64_4.6.26614.01.dll
+[19.360s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/std_msgs_assemblies.dll
+[19.360s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/std_msgs_assemblies.pdb
+[19.375s] -- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/string_node_manager.deps.json
+[19.422s] -- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/string_node_manager.dll
+[19.485s] -- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/string_node_manager.exe
+[19.516s] -- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/string_node_manager.pdb
+[19.532s] -- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/string_node_manager.runtimeconfig.json
+[19.532s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.AppContext.dll
+[19.532s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Buffers.dll
+[19.532s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Collections.Concurrent.dll
+[19.532s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Collections.dll
+[19.532s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Collections.Immutable.dll
+[19.532s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Collections.NonGeneric.dll
+[19.532s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Collections.Specialized.dll
+[19.532s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.ComponentModel.Annotations.dll
+[19.532s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.ComponentModel.Composition.dll
+[19.532s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.ComponentModel.DataAnnotations.dll
+[19.532s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.ComponentModel.dll
+[19.532s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.ComponentModel.EventBasedAsync.dll
+[19.532s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.ComponentModel.Primitives.dll
+[19.532s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.ComponentModel.TypeConverter.dll
+[19.532s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Configuration.dll
+[19.532s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Console.dll
+[19.547s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Core.dll
+[19.547s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Data.Common.dll
+[19.547s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Data.dll
+[19.547s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Diagnostics.Contracts.dll
+[19.547s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Diagnostics.Debug.dll
+[19.547s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Diagnostics.DiagnosticSource.dll
+[19.547s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Diagnostics.FileVersionInfo.dll
+[19.547s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Diagnostics.Process.dll
+[19.547s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Diagnostics.StackTrace.dll
+[19.547s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Diagnostics.TextWriterTraceListener.dll
+[19.547s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Diagnostics.Tools.dll
+[19.547s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Diagnostics.TraceSource.dll
+[19.547s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Diagnostics.Tracing.dll
+[19.547s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.dll
+[19.547s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Drawing.dll
+[19.547s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Drawing.Primitives.dll
+[19.547s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Dynamic.Runtime.dll
+[19.547s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Globalization.Calendars.dll
+[19.547s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Globalization.dll
+[19.547s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Globalization.Extensions.dll
+[19.547s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.IO.Compression.dll
+[19.547s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.IO.Compression.FileSystem.dll
+[19.547s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.IO.Compression.ZipFile.dll
+[19.547s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.IO.dll
+[19.563s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.IO.FileSystem.AccessControl.dll
+[19.563s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.IO.FileSystem.dll
+[19.563s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.IO.FileSystem.DriveInfo.dll
+[19.563s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.IO.FileSystem.Primitives.dll
+[19.563s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.IO.FileSystem.Watcher.dll
+[19.563s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.IO.IsolatedStorage.dll
+[19.563s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.IO.MemoryMappedFiles.dll
+[19.563s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.IO.Pipes.dll
+[19.563s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.IO.UnmanagedMemoryStream.dll
+[19.563s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Linq.dll
+[19.563s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Linq.Expressions.dll
+[19.563s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Linq.Parallel.dll
+[19.563s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Linq.Queryable.dll
+[19.563s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Net.dll
+[19.563s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Net.Http.dll
+[19.563s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Net.HttpListener.dll
+[19.563s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Net.Mail.dll
+[19.563s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Net.NameResolution.dll
+[19.563s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Net.NetworkInformation.dll
+[19.563s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Net.Ping.dll
+[19.563s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Net.Primitives.dll
+[19.563s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Net.Requests.dll
+[19.563s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Net.Security.dll
+[19.563s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Net.ServicePoint.dll
+[19.578s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Net.Sockets.dll
+[19.578s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Net.WebClient.dll
+[19.578s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Net.WebHeaderCollection.dll
+[19.578s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Net.WebProxy.dll
+[19.578s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Net.WebSockets.Client.dll
+[19.578s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Net.WebSockets.dll
+[19.578s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Numerics.dll
+[19.578s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Numerics.Vectors.dll
+[19.578s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.ObjectModel.dll
+[19.578s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Private.CoreLib.dll
+[19.578s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Private.DataContractSerialization.dll
+[19.578s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Private.Uri.dll
+[19.578s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Private.Xml.dll
+[19.578s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Private.Xml.Linq.dll
+[19.578s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Reflection.DispatchProxy.dll
+[19.578s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Reflection.dll
+[19.578s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Reflection.Emit.dll
+[19.578s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Reflection.Emit.ILGeneration.dll
+[19.578s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Reflection.Emit.Lightweight.dll
+[19.578s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Reflection.Extensions.dll
+[19.578s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Reflection.Metadata.dll
+[19.578s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Reflection.Primitives.dll
+[19.578s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Reflection.TypeExtensions.dll
+[19.578s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Resources.Reader.dll
+[19.578s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Resources.ResourceManager.dll
+[19.594s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Resources.Writer.dll
+[19.594s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Runtime.CompilerServices.VisualC.dll
+[19.594s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Runtime.dll
+[19.594s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Runtime.Extensions.dll
+[19.594s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Runtime.Handles.dll
+[19.594s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Runtime.InteropServices.dll
+[19.594s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Runtime.InteropServices.RuntimeInformation.dll
+[19.594s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Runtime.InteropServices.WindowsRuntime.dll
+[19.594s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Runtime.Loader.dll
+[19.594s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Runtime.Numerics.dll
+[19.594s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Runtime.Serialization.dll
+[19.594s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Runtime.Serialization.Formatters.dll
+[19.594s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Runtime.Serialization.Json.dll
+[19.594s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Runtime.Serialization.Primitives.dll
+[19.594s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Runtime.Serialization.Xml.dll
+[19.594s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Security.AccessControl.dll
+[19.594s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Security.Claims.dll
+[19.594s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Security.Cryptography.Algorithms.dll
+[19.594s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Security.Cryptography.Cng.dll
+[19.594s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Security.Cryptography.Csp.dll
+[19.594s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Security.Cryptography.Encoding.dll
+[19.610s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Security.Cryptography.OpenSsl.dll
+[19.610s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Security.Cryptography.Primitives.dll
+[19.610s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Security.Cryptography.X509Certificates.dll
+[19.610s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Security.dll
+[19.610s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Security.Principal.dll
+[19.610s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Security.Principal.Windows.dll
+[19.610s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Security.SecureString.dll
+[19.610s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.ServiceModel.Web.dll
+[19.610s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.ServiceProcess.dll
+[19.610s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Text.Encoding.dll
+[19.610s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Text.Encoding.Extensions.dll
+[19.610s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Text.RegularExpressions.dll
+[19.610s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Threading.dll
+[19.610s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Threading.Overlapped.dll
+[19.610s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Threading.Tasks.Dataflow.dll
+[19.610s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Threading.Tasks.dll
+[19.610s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Threading.Tasks.Extensions.dll
+[19.610s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Threading.Tasks.Parallel.dll
+[19.610s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Threading.Thread.dll
+[19.610s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Threading.ThreadPool.dll
+[19.610s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Threading.Timer.dll
+[19.610s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Transactions.dll
+[19.610s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Transactions.Local.dll
+[19.610s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.ValueTuple.dll
+[19.625s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Web.dll
+[19.625s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Web.HttpUtility.dll
+[19.625s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Windows.dll
+[19.625s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Xml.dll
+[19.625s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Xml.Linq.dll
+[19.625s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Xml.ReaderWriter.dll
+[19.625s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Xml.Serialization.dll
+[19.625s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Xml.XDocument.dll
+[19.625s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Xml.XmlDocument.dll
+[19.625s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Xml.XmlSerializer.dll
+[19.625s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Xml.XPath.dll
+[19.625s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/System.Xml.XPath.XDocument.dll
+[19.625s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/ucrtbase.dll
+[19.625s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/dotnet/WindowsBase.dll
+[19.625s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/lib/string_node_manager/string_node_manager.bat
+[19.625s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/share/ament_index/resource_index/package_run_dependencies/string_node_manager
+[19.625s] -- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/share/ament_index/resource_index/parent_prefix_path/string_node_manager
+[19.641s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/share/string_node_manager/environment/ament_prefix_path.bat
+[19.641s] -- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/share/string_node_manager/environment/ament_prefix_path.dsv
+[19.641s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/share/string_node_manager/environment/path.bat
+[19.657s] -- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/share/string_node_manager/environment/path.dsv
+[19.657s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/share/string_node_manager/local_setup.bat
+[19.672s] -- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/share/string_node_manager/local_setup.dsv
+[19.672s] -- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/share/string_node_manager/package.dsv
+[19.688s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/share/ament_index/resource_index/packages/string_node_manager
+[19.688s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/share/string_node_manager/cmake/string_node_managerConfig.cmake
+[19.688s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/share/string_node_manager/cmake/string_node_managerConfig-version.cmake
+[19.688s] -- Up-to-date: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/install/string_node_manager/share/string_node_manager/package.xml
+[19.703s] Invoked command in 'c:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\String_msgs_hololens\build\string_node_manager' returned '0': CMAKE_PREFIX_PATH=%CMAKE_PREFIX_PATH%;c:\opt\ros2_dotnet_ws\install\sensor_msgs_py c:\opt\ros\foxy\x64\Scripts\cmake.EXE --install c:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\String_msgs_hololens\build\string_node_manager --config Release

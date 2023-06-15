@@ -1,0 +1,6 @@
+source;share\string_msgs_hololens_dll\hook\cmake_prefix_path.ps1
+source;share\string_msgs_hololens_dll\hook\cmake_prefix_path.bat
+source;share\string_msgs_hololens_dll\hook\cmake_prefix_path.dsv
+source;share/string_msgs_hololens_dll/local_setup.bat
+source;share/string_msgs_hololens_dll/local_setup.dsv
+source;share/string_msgs_hololens_dll/local_setup.ps1

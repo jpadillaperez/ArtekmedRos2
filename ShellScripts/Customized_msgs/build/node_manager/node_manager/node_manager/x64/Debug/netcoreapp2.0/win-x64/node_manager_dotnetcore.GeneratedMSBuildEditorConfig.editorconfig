@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = node_manager_dotnetcore
+build_property.ProjectDir = C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\Customized_msgs\build\node_manager\node_manager\

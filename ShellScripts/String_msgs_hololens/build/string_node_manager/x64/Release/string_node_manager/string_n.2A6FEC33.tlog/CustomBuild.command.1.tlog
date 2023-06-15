@@ -1,0 +1,34 @@
+^C:\USERS\JORGE\DOCUMENTS\GITHUB\ARTEKMEDROS2\SHELLSCRIPTS\STRING_MSGS_HOLOLENS\BUILD\STRING_NODE_MANAGER\CMAKEFILES\F6768768DCD43A8B84C70CCFA1E822FA\STRING_NODE_MANAGER.RULE
+setlocal
+cd C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\String_msgs_hololens\build\string_node_manager\string_node_manager
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\opt\ros\foxy\x64\Lib\site-packages\cmake\data\bin\cmake.exe -DCSHARP_TARGET_FRAMEWORK="netcoreapp2.0" -DCSHARP_BUILDER_OUTPUT_TYPE="Exe" -DCSHARP_BUILDER_OUTPUT_PATH="C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\String_msgs_hololens\build\string_node_manager\Release" -DCSHARP_PLATFORM="x64" -DCSHARP_BUILDER_OUTPUT_NAME="string_node_manager" -DCSHARP_BUILDER_ADDITIONAL_REFERENCES="<Reference Include=\"C:\opt\ros2_dotnet_ws\install\rcldotnet\lib\rcldotnet\dotnet\rcldotnet_assemblies.dll\" /> <Reference Include=\"C:\opt\ros2_dotnet_ws\install\rcldotnet_common\lib\rcldotnet_common\dotnet\rcldotnet_common.dll\" /> <Reference Include=\"C:\opt\ros2_dotnet_ws\install\std_msgs\lib\std_msgs\dotnet\std_msgs_assemblies.dll\" />" -DCSHARP_BUILDER_SOURCES="<Compile Include=\"C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\String_msgs_hololens\src\string_node_manager_function.cs\" />" -DCSHARP_TARGET_FRAMEWORK_VERSION="2.0" -DCSHARP_PACKAGE_REFERENCES="" -DMSBUILD_TOOLSET="12.0" -DCSHARP_IMPORTS="" -DCONFIG_INPUT_FILE="C:/opt/ros2_dotnet_ws/install/dotnet_cmake_module/share/dotnet_cmake_module/cmake/Modules/dotnet/dotnetcore.csproj.in" -DCONFIG_OUTPUT_FILE="C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/build/string_node_manager/string_node_manager/string_node_manager_dotnetcore.csproj" -P C:/opt/ros2_dotnet_ws/install/dotnet_cmake_module/share/dotnet_cmake_module/cmake/ConfigureFile.cmake
+if %errorlevel% neq 0 goto :cmEnd
+C:\opt\ros\foxy\x64\Lib\site-packages\cmake\data\bin\cmake.exe -DCSHARP_PACKAGE_REFERENCES="" -DCONFIG_INPUT_FILE="C:/opt/ros2_dotnet_ws/install/dotnet_cmake_module/share/dotnet_cmake_module/cmake/Modules/dotnet/packages.config.in" -DCONFIG_OUTPUT_FILE="C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/build/string_node_manager/string_node_manager/packages.config" -P C:/opt/ros2_dotnet_ws/install/dotnet_cmake_module/share/dotnet_cmake_module/cmake/ConfigureFile.cmake
+if %errorlevel% neq 0 goto :cmEnd
+C:\opt\ros\foxy\x64\Lib\site-packages\cmake\data\bin\cmake.exe -DCSHARP_BUILDER_OUTPUT_NAME="string_node_manager" -DCONFIG_INPUT_FILE="C:/opt/ros2_dotnet_ws/install/dotnet_cmake_module/share/dotnet_cmake_module/cmake/Modules/dotnet/Directory.Build.props.in" -DCONFIG_OUTPUT_FILE="C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/build/string_node_manager/string_node_manager/Directory.Build.props" -P C:/opt/ros2_dotnet_ws/install/dotnet_cmake_module/share/dotnet_cmake_module/cmake/ConfigureFile.cmake
+if %errorlevel% neq 0 goto :cmEnd
+C:\opt\ros\foxy\x64\Lib\site-packages\cmake\data\bin\cmake.exe -version
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\dotnet\dotnet.exe" restore -r win-x64 string_node_manager_dotnetcore.csproj
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\dotnet\dotnet.exe" publish -r win-x64 string_node_manager_dotnetcore.csproj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\JORGE\DOCUMENTS\GITHUB\ARTEKMEDROS2\SHELLSCRIPTS\STRING_MSGS_HOLOLENS\CMAKELISTS.TXT
+setlocal
+C:\opt\ros\foxy\x64\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens -BC:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/build/string_node_manager --check-stamp-file C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/build/string_node_manager/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

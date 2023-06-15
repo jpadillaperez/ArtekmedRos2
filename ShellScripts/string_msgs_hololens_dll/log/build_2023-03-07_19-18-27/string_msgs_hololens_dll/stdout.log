@@ -1,0 +1,281 @@
+-- Selecting Windows SDK version 10.0.22000.0 to target Windows 10.0.22621.
+-- Found ament_cmake: 0.9.9 (C:/opt/ros/foxy/x64/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: C:/opt/ros/foxy/x64/python.exe
+-- Found rcldotnet: 0.0.0 (C:/opt/ros2_dotnet_ws/install/rcldotnet/share/rcldotnet/cmake)
+-- Found rosidl_adapter: 1.3.0 (C:/opt/ros2_dotnet_ws/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (C:/opt/ros/foxy/x64/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rcldotnet_common: 0.0.0 (C:/opt/ros2_dotnet_ws/install/rcldotnet_common/share/rcldotnet_common/cmake)
+-- Found dotnet_cmake_module: 0.0.0 (C:/opt/ros2_dotnet_ws/install/dotnet_cmake_module/share/dotnet_cmake_module/cmake)
+-- Found .NET Core: 7.0.101
+-- Using Framework: netcoreapp2.0
+-- Using Framework: netcoreapp2.0
+-- Using Runtime: win-x64
+-- Found std_msgs: 2.0.5 (C:/opt/ros2_dotnet_ws/install/std_msgs/share/std_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/build/string_msgs_hololens_dll
+Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  C:/opt/ros/foxy/x64/Lib/site-packages/cmake/data/bin/cmake.exe;-version;C:/Program Files/dotnet/dotnet.exe restore;-r;win-x64 string_msgs_hololens_dll_dotnetcore.csproj; C:/Program Files/dotnet/dotnet.exe publish;-r;win-x64 string_msgs_hololens_dll_dotnetcore.csproj -> C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/build/string_msgs_hololens_dll/string_msgs_hololens_dll
+  cmake version 3.18.2
+  
+  CMake suite maintained and supported by Kitware (kitware.com/cmake).
+    Determining projects to restore...
+C:\Program Files\dotnet\sdk\7.0.101\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.EolTargetFrameworks.targets(28,5): warning NETSDK1138: The target framework 'netcoreapp2.0' is out of support and will not receive security updates in the future. Please refer to https://aka.ms/dotnet-core-support for more information about the support policy. [C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\string_msgs_hololens_dll\build\string_msgs_hololens_dll\string_msgs_hololens_dll\string_msgs_hololens_dll_dotnetcore.csproj] [C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\string_msgs_hololens_dll\build\string_msgs_hololens_dll\string_msgs_hololens_dll.vcxproj]
+C:\Program Files\dotnet\sdk\7.0.101\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.EolTargetFrameworks.targets(28,5): warning NETSDK1138: The target framework 'netcoreapp2.0' is out of support and will not receive security updates in the future. Please refer to https://aka.ms/dotnet-core-support for more information about the support policy. [C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\string_msgs_hololens_dll\build\string_msgs_hololens_dll\string_msgs_hololens_dll\string_msgs_hololens_dll_dotnetcore.csproj] [C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\string_msgs_hololens_dll\build\string_msgs_hololens_dll\string_msgs_hololens_dll.vcxproj]
+    Restored C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\string_msgs_hololens_dll\build\string_msgs_hololens_dll\string_msgs_hololens_dll\string_msgs_hololens_dll_dotnetcore.csproj (in 222 ms).
+  MSBuild version 17.4.0+18d5aef85 for .NET
+    Determining projects to restore...
+C:\Program Files\dotnet\sdk\7.0.101\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.EolTargetFrameworks.targets(28,5): warning NETSDK1138: The target framework 'netcoreapp2.0' is out of support and will not receive security updates in the future. Please refer to https://aka.ms/dotnet-core-support for more information about the support policy. [C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\string_msgs_hololens_dll\build\string_msgs_hololens_dll\string_msgs_hololens_dll\string_msgs_hololens_dll_dotnetcore.csproj] [C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\string_msgs_hololens_dll\build\string_msgs_hololens_dll\string_msgs_hololens_dll.vcxproj]
+C:\Program Files\dotnet\sdk\7.0.101\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.EolTargetFrameworks.targets(28,5): warning NETSDK1138: The target framework 'netcoreapp2.0' is out of support and will not receive security updates in the future. Please refer to https://aka.ms/dotnet-core-support for more information about the support policy. [C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\string_msgs_hololens_dll\build\string_msgs_hololens_dll\string_msgs_hololens_dll\string_msgs_hololens_dll_dotnetcore.csproj] [C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\string_msgs_hololens_dll\build\string_msgs_hololens_dll\string_msgs_hololens_dll.vcxproj]
+    Restored C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\string_msgs_hololens_dll\build\string_msgs_hololens_dll\string_msgs_hololens_dll\string_msgs_hololens_dll_dotnetcore.csproj (in 250 ms).
+C:\Program Files\dotnet\sdk\7.0.101\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.EolTargetFrameworks.targets(28,5): warning NETSDK1138: The target framework 'netcoreapp2.0' is out of support and will not receive security updates in the future. Please refer to https://aka.ms/dotnet-core-support for more information about the support policy. [C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\string_msgs_hololens_dll\build\string_msgs_hololens_dll\string_msgs_hololens_dll\string_msgs_hololens_dll_dotnetcore.csproj] [C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\string_msgs_hololens_dll\build\string_msgs_hololens_dll\string_msgs_hololens_dll.vcxproj]
+CSC : warning CS1668: Invalid search path 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\atlmfc\lib\x64' specified in 'LIB environment variable' -- 'directory does not exist' [C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\string_msgs_hololens_dll\build\string_msgs_hololens_dll\string_msgs_hololens_dll\string_msgs_hololens_dll_dotnetcore.csproj] [C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\string_msgs_hololens_dll\build\string_msgs_hololens_dll\string_msgs_hololens_dll.vcxproj]
+    string_msgs_hololens_dll_dotnetcore -> C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\string_msgs_hololens_dll\build\string_msgs_hololens_dll\Release\netcoreapp2.0\win-x64\string_msgs_hololens_dll.dll
+    string_msgs_hololens_dll_dotnetcore -> C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\string_msgs_hololens_dll\build\string_msgs_hololens_dll\Release\netcoreapp2.0\win-x64\publish\
+  Building Custom Rule C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/CMakeLists.txt
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/api-ms-win-core-console-l1-1-0.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/api-ms-win-core-datetime-l1-1-0.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/api-ms-win-core-debug-l1-1-0.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/api-ms-win-core-errorhandling-l1-1-0.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/api-ms-win-core-file-l1-1-0.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/api-ms-win-core-file-l1-2-0.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/api-ms-win-core-file-l2-1-0.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/api-ms-win-core-handle-l1-1-0.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/api-ms-win-core-heap-l1-1-0.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/api-ms-win-core-interlocked-l1-1-0.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/api-ms-win-core-libraryloader-l1-1-0.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/api-ms-win-core-localization-l1-2-0.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/api-ms-win-core-memory-l1-1-0.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/api-ms-win-core-namedpipe-l1-1-0.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/api-ms-win-core-processenvironment-l1-1-0.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/api-ms-win-core-processthreads-l1-1-0.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/api-ms-win-core-processthreads-l1-1-1.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/api-ms-win-core-profile-l1-1-0.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/api-ms-win-core-rtlsupport-l1-1-0.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/api-ms-win-core-string-l1-1-0.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/api-ms-win-core-synch-l1-1-0.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/api-ms-win-core-synch-l1-2-0.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/api-ms-win-core-sysinfo-l1-1-0.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/api-ms-win-core-timezone-l1-1-0.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/api-ms-win-core-util-l1-1-0.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/api-ms-win-crt-conio-l1-1-0.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/api-ms-win-crt-convert-l1-1-0.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/api-ms-win-crt-environment-l1-1-0.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/api-ms-win-crt-filesystem-l1-1-0.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/api-ms-win-crt-heap-l1-1-0.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/api-ms-win-crt-locale-l1-1-0.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/api-ms-win-crt-math-l1-1-0.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/api-ms-win-crt-multibyte-l1-1-0.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/api-ms-win-crt-private-l1-1-0.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/api-ms-win-crt-process-l1-1-0.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/api-ms-win-crt-runtime-l1-1-0.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/api-ms-win-crt-stdio-l1-1-0.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/api-ms-win-crt-string-l1-1-0.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/api-ms-win-crt-time-l1-1-0.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/api-ms-win-crt-utility-l1-1-0.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/builtin_interfaces_assemblies.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/builtin_interfaces_assemblies.pdb
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/clrcompression.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/clretwrc.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/clrjit.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/coreclr.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/dbgshim.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/hostfxr.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/hostpolicy.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/Microsoft.CSharp.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/Microsoft.DiaSymReader.Native.amd64.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/Microsoft.VisualBasic.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/Microsoft.Win32.Primitives.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/Microsoft.Win32.Registry.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/mscordaccore.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/mscordaccore_amd64_amd64_4.6.26614.01.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/mscordbi.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/mscorlib.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/mscorrc.debug.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/mscorrc.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/netstandard.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/newtonsoft.json.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/newtonsoft.json.pdb
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/newtonsoft.json.xml
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/rcldotnet_assemblies.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/rcldotnet_assemblies.pdb
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/rcldotnet_common.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/rcldotnet_common.pdb
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/sos.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/SOS.NETCore.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/sos_amd64_amd64_4.6.26614.01.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/std_msgs_assemblies.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/std_msgs_assemblies.pdb
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/string_msgs_hololens_dll.deps.json
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/string_msgs_hololens_dll.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/string_msgs_hololens_dll.exe
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/string_msgs_hololens_dll.pdb
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/string_msgs_hololens_dll.runtimeconfig.json
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.AppContext.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Buffers.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Collections.Concurrent.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Collections.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Collections.Immutable.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Collections.NonGeneric.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Collections.Specialized.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.ComponentModel.Annotations.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.ComponentModel.Composition.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.ComponentModel.DataAnnotations.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.ComponentModel.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.ComponentModel.EventBasedAsync.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.ComponentModel.Primitives.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.ComponentModel.TypeConverter.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Configuration.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Console.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Core.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Data.Common.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Data.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Diagnostics.Contracts.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Diagnostics.Debug.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Diagnostics.DiagnosticSource.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Diagnostics.FileVersionInfo.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Diagnostics.Process.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Diagnostics.StackTrace.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Diagnostics.TextWriterTraceListener.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Diagnostics.Tools.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Diagnostics.TraceSource.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Diagnostics.Tracing.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Drawing.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Drawing.Primitives.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Dynamic.Runtime.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Globalization.Calendars.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Globalization.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Globalization.Extensions.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.IO.Compression.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.IO.Compression.FileSystem.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.IO.Compression.ZipFile.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.IO.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.IO.FileSystem.AccessControl.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.IO.FileSystem.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.IO.FileSystem.DriveInfo.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.IO.FileSystem.Primitives.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.IO.FileSystem.Watcher.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.IO.IsolatedStorage.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.IO.MemoryMappedFiles.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.IO.Pipes.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.IO.UnmanagedMemoryStream.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Linq.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Linq.Expressions.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Linq.Parallel.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Linq.Queryable.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Net.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Net.Http.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Net.HttpListener.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Net.Mail.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Net.NameResolution.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Net.NetworkInformation.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Net.Ping.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Net.Primitives.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Net.Requests.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Net.Security.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Net.ServicePoint.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Net.Sockets.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Net.WebClient.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Net.WebHeaderCollection.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Net.WebProxy.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Net.WebSockets.Client.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Net.WebSockets.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Numerics.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Numerics.Vectors.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.ObjectModel.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Private.CoreLib.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Private.DataContractSerialization.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Private.Uri.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Private.Xml.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Private.Xml.Linq.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Reflection.DispatchProxy.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Reflection.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Reflection.Emit.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Reflection.Emit.ILGeneration.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Reflection.Emit.Lightweight.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Reflection.Extensions.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Reflection.Metadata.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Reflection.Primitives.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Reflection.TypeExtensions.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Resources.Reader.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Resources.ResourceManager.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Resources.Writer.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Runtime.CompilerServices.VisualC.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Runtime.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Runtime.Extensions.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Runtime.Handles.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Runtime.InteropServices.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Runtime.InteropServices.RuntimeInformation.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Runtime.InteropServices.WindowsRuntime.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Runtime.Loader.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Runtime.Numerics.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Runtime.Serialization.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Runtime.Serialization.Formatters.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Runtime.Serialization.Json.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Runtime.Serialization.Primitives.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Runtime.Serialization.Xml.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Security.AccessControl.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Security.Claims.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Security.Cryptography.Algorithms.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Security.Cryptography.Cng.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Security.Cryptography.Csp.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Security.Cryptography.Encoding.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Security.Cryptography.OpenSsl.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Security.Cryptography.Primitives.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Security.Cryptography.X509Certificates.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Security.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Security.Principal.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Security.Principal.Windows.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Security.SecureString.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.ServiceModel.Web.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.ServiceProcess.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Text.Encoding.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Text.Encoding.Extensions.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Text.RegularExpressions.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Threading.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Threading.Overlapped.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Threading.Tasks.Dataflow.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Threading.Tasks.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Threading.Tasks.Extensions.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Threading.Tasks.Parallel.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Threading.Thread.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Threading.ThreadPool.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Threading.Timer.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Transactions.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Transactions.Local.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.ValueTuple.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Web.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Web.HttpUtility.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Windows.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Xml.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Xml.Linq.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Xml.ReaderWriter.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Xml.Serialization.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Xml.XDocument.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Xml.XmlDocument.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Xml.XmlSerializer.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Xml.XPath.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/System.Xml.XPath.XDocument.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/ucrtbase.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/dotnet/WindowsBase.dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/lib/string_msgs_hololens_dll/string_msgs_hololens_dll.bat
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/share/ament_index/resource_index/package_run_dependencies/string_msgs_hololens_dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/share/ament_index/resource_index/parent_prefix_path/string_msgs_hololens_dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/share/string_msgs_hololens_dll/environment/ament_prefix_path.bat
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/share/string_msgs_hololens_dll/environment/ament_prefix_path.dsv
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/share/string_msgs_hololens_dll/environment/path.bat
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/share/string_msgs_hololens_dll/environment/path.dsv
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/share/string_msgs_hololens_dll/local_setup.bat
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/share/string_msgs_hololens_dll/local_setup.dsv
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/share/string_msgs_hololens_dll/package.dsv
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/share/ament_index/resource_index/packages/string_msgs_hololens_dll
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/share/string_msgs_hololens_dll/cmake/string_msgs_hololens_dllConfig.cmake
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/share/string_msgs_hololens_dll/cmake/string_msgs_hololens_dllConfig-version.cmake
+-- Installing: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/install/string_msgs_hololens_dll/share/string_msgs_hololens_dll/package.xml

@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "dO9AIY0S4wst1zsTuGs5ph9Y6Xs7FB05kqnpI2myz9g5FBEBxDGWVi3dNYiFgaVmNayWE3s1sTObZbAHbrc7Kg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Jorge\\Documents\\GitHub\\ArtekmedRos2\\ShellScripts\\Customized_msgs\\build\\node_manager\\node_manager\\node_manager_dotnetcore.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jorge\\.nuget\\packages\\microsoft.netcore.app\\2.0.9\\microsoft.netcore.app.2.0.9.nupkg.sha512",
+    "C:\\Users\\Jorge\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.0.9\\microsoft.netcore.dotnetapphost.2.0.9.nupkg.sha512",
+    "C:\\Users\\Jorge\\.nuget\\packages\\microsoft.netcore.dotnethostpolicy\\2.0.9\\microsoft.netcore.dotnethostpolicy.2.0.9.nupkg.sha512",
+    "C:\\Users\\Jorge\\.nuget\\packages\\microsoft.netcore.dotnethostresolver\\2.0.9\\microsoft.netcore.dotnethostresolver.2.0.9.nupkg.sha512",
+    "C:\\Users\\Jorge\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.2\\microsoft.netcore.platforms.2.0.2.nupkg.sha512",
+    "C:\\Users\\Jorge\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Jorge\\.nuget\\packages\\runtime.win-x64.microsoft.netcore.app\\2.0.9\\runtime.win-x64.microsoft.netcore.app.2.0.9.nupkg.sha512",
+    "C:\\Users\\Jorge\\.nuget\\packages\\runtime.win-x64.microsoft.netcore.dotnetapphost\\2.0.9\\runtime.win-x64.microsoft.netcore.dotnetapphost.2.0.9.nupkg.sha512",
+    "C:\\Users\\Jorge\\.nuget\\packages\\runtime.win-x64.microsoft.netcore.dotnethostpolicy\\2.0.9\\runtime.win-x64.microsoft.netcore.dotnethostpolicy.2.0.9.nupkg.sha512",
+    "C:\\Users\\Jorge\\.nuget\\packages\\runtime.win-x64.microsoft.netcore.dotnethostresolver\\2.0.9\\runtime.win-x64.microsoft.netcore.dotnethostresolver.2.0.9.nupkg.sha512"
+  ],
+  "logs": []
+}

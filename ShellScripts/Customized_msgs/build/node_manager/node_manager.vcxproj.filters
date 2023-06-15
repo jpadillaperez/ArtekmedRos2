@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\Customized_msgs\build\node_manager\CMakeFiles\29bd3026ebf179734f626ee9ee78c3f9\node_manager.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\Customized_msgs\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\Customized_msgs\build\node_manager\CMakeFiles\node_manager" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{238077D4-3C46-3C7D-B628-3346B6443FBB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

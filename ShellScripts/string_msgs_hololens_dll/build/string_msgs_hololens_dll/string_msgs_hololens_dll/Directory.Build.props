@@ -1,0 +1,5 @@
+<Project>
+  <PropertyGroup Condition="$(MSBuildProjectName.Contains('dotnetcore'))">
+    <BaseIntermediateOutputPath>string_msgs_hololens_dll\</BaseIntermediateOutputPath>
+  </PropertyGroup>
+</Project>

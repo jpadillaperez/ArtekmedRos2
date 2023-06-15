@@ -1,0 +1,6 @@
+source;share\node_manager\hook\cmake_prefix_path.ps1
+source;share\node_manager\hook\cmake_prefix_path.bat
+source;share\node_manager\hook\cmake_prefix_path.dsv
+source;share/node_manager/local_setup.bat
+source;share/node_manager/local_setup.dsv
+source;share/node_manager/local_setup.ps1

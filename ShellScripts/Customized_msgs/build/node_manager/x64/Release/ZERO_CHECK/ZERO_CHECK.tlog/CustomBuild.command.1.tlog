@@ -1,0 +1,10 @@
+^C:\USERS\JORGE\DOCUMENTS\GITHUB\ARTEKMEDROS2\SHELLSCRIPTS\CUSTOMIZED_MSGS\BUILD\NODE_MANAGER\CMAKEFILES\29BD3026EBF179734F626EE9EE78C3F9\GENERATE.STAMP.RULE
+setlocal
+C:\opt\ros\foxy\x64\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/Customized_msgs -BC:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/Customized_msgs/build/node_manager --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/Customized_msgs/build/node_manager/node_manager.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

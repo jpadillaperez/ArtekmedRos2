@@ -1,0 +1,7 @@
+C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/build/string_node_manager/CMakeFiles/uninstall.dir
+C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/build/string_node_manager/CMakeFiles/INSTALL.dir
+C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/build/string_node_manager/CMakeFiles/RUN_TESTS.dir
+C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/build/string_node_manager/CMakeFiles/string_node_manager_uninstall.dir
+C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/build/string_node_manager/CMakeFiles/string_node_manager.dir
+C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/build/string_node_manager/CMakeFiles/ALL_BUILD.dir
+C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/build/string_node_manager/CMakeFiles/ZERO_CHECK.dir

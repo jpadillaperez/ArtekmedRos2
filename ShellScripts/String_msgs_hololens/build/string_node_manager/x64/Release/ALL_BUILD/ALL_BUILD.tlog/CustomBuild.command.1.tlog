@@ -1,0 +1,10 @@
+^C:\USERS\JORGE\DOCUMENTS\GITHUB\ARTEKMEDROS2\SHELLSCRIPTS\STRING_MSGS_HOLOLENS\CMAKELISTS.TXT
+setlocal
+C:\opt\ros\foxy\x64\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens -BC:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/build/string_node_manager --check-stamp-file C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_hololens/build/string_node_manager/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,37 @@
+[0.078s] Invoking command in 'C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\String_msgs_multiple_functions\build\string_node_manager': c:\opt\ros\foxy\x64\Scripts\cmake.EXE C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\String_msgs_multiple_functions -DCMAKE_INSTALL_PREFIX=C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\String_msgs_multiple_functions\install\string_node_manager -G Visual Studio 16 2019
+[0.250s] -- Selecting Windows SDK version 10.0.22000.0 to target Windows 10.0.22621.
+[2.437s] -- The C compiler identification is MSVC 19.29.30138.0
+[3.406s] -- The CXX compiler identification is MSVC 19.29.30138.0
+[3.468s] -- Detecting C compiler ABI info
+[4.359s] -- Detecting C compiler ABI info - done
+[4.359s] -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe - skipped
+[4.359s] -- Detecting C compile features
+[4.359s] -- Detecting C compile features - done
+[4.390s] -- Detecting CXX compiler ABI info
+[5.343s] -- Detecting CXX compiler ABI info - done
+[5.343s] -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe - skipped
+[5.343s] -- Detecting CXX compile features
+[5.343s] -- Detecting CXX compile features - done
+[5.421s] -- Found ament_cmake: 0.9.9 (C:/opt/ros/foxy/x64/share/ament_cmake/cmake)
+[5.593s] -- Found PythonInterp: C:/opt/ros/foxy/x64/python.exe (found suitable version "3.8.3", minimum required is "3") 
+[5.593s] -- Using PYTHON_EXECUTABLE: C:/opt/ros/foxy/x64/python.exe
+[6.734s] CMake Error at CMakeLists.txt:11 (find_package):
+[6.734s]   By not providing "Findrcldotnet.cmake" in CMAKE_MODULE_PATH this project
+[6.734s]   has asked CMake to find a package configuration file provided by
+[6.734s]   "rcldotnet", but CMake did not find one.
+[6.734s] 
+[6.734s]   Could not find a package configuration file provided by "rcldotnet" with
+[6.734s]   any of the following names:
+[6.734s] 
+[6.734s]     rcldotnetConfig.cmake
+[6.734s]     rcldotnet-config.cmake
+[6.734s] 
+[6.734s]   Add the installation prefix of "rcldotnet" to CMAKE_PREFIX_PATH or set
+[6.734s]   "rcldotnet_DIR" to a directory containing one of the above files.  If
+[6.734s]   "rcldotnet" provides a separate development package or SDK, be sure it has
+[6.734s]   been installed.
+[6.734s] 
+[6.734s] 
+[6.734s] -- Configuring incomplete, errors occurred!
+[6.734s] See also "C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/String_msgs_multiple_functions/build/string_node_manager/CMakeFiles/CMakeOutput.log".
+[6.765s] Invoked command in 'C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\String_msgs_multiple_functions\build\string_node_manager' returned '1': c:\opt\ros\foxy\x64\Scripts\cmake.EXE C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\String_msgs_multiple_functions -DCMAKE_INSTALL_PREFIX=C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\String_msgs_multiple_functions\install\string_node_manager -G Visual Studio 16 2019

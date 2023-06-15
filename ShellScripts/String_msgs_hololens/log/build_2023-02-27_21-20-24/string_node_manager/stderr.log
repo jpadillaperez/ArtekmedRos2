@@ -1,0 +1,12 @@
+CMake Warning (dev) at C:/opt/ros/foxy/x64/Lib/site-packages/cmake/data/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (DOTNET_CORE) does not match the name of the calling package (DotNetCore).
+  This can lead to problems in calling code that expects `find_package`
+  result variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  C:/opt/ros2_dotnet_ws/install/dotnet_cmake_module/share/dotnet_cmake_module/cmake/Modules/dotnet/FindDotNetCore.cmake:37 (find_package_handle_standard_args)
+  C:/opt/ros2_dotnet_ws/install/dotnet_cmake_module/share/dotnet_cmake_module/cmake/Modules/FindCSBuild.cmake:20 (find_package)
+  C:/opt/ros2_dotnet_ws/install/dotnet_cmake_module/share/dotnet_cmake_module/cmake/Modules/FindDotNETExtra.cmake:15 (find_package)
+  CMakeLists.txt:14 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+

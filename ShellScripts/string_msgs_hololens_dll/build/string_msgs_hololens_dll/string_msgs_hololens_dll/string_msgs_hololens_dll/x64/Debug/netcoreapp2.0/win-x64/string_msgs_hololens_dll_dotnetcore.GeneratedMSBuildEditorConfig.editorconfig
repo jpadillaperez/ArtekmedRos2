@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = string_msgs_hololens_dll_dotnetcore
+build_property.ProjectDir = C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\string_msgs_hololens_dll\build\string_msgs_hololens_dll\string_msgs_hololens_dll\

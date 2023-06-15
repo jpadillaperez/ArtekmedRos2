@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\string_msgs_hololens_dll\build\string_msgs_hololens_dll\CMakeFiles\a03f46ad096a2151e9f29a769a189ad5\RUN_TESTS_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{2CA69DC6-C6BE-3764-A180-7EB54637D4DA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

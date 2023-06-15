@@ -1,0 +1,75 @@
+[0.141s] Invoking command in 'c:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\string_msgs_hololens_dll\build\string_msgs_hololens_dll': CMAKE_PREFIX_PATH=%CMAKE_PREFIX_PATH%;c:\opt\ros2_dotnet_ws\install\sensor_msgs_py c:\opt\ros\foxy\x64\Scripts\cmake.EXE c:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\string_msgs_hololens_dll -DCMAKE_INSTALL_PREFIX=c:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\string_msgs_hololens_dll\install\string_msgs_hololens_dll -G Visual Studio 16 2019
+[0.328s] -- Selecting Windows SDK version 10.0.22000.0 to target Windows 10.0.22621.
+[2.188s] -- The C compiler identification is MSVC 19.29.30138.0
+[3.359s] -- The CXX compiler identification is MSVC 19.29.30138.0
+[3.516s] -- Detecting C compiler ABI info
+[4.344s] -- Detecting C compiler ABI info - done
+[4.359s] -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe - skipped
+[4.359s] -- Detecting C compile features
+[4.359s] -- Detecting C compile features - done
+[4.375s] -- Detecting CXX compiler ABI info
+[5.188s] -- Detecting CXX compiler ABI info - done
+[5.188s] -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe - skipped
+[5.188s] -- Detecting CXX compile features
+[5.188s] -- Detecting CXX compile features - done
+[5.234s] -- Found ament_cmake: 0.9.9 (C:/opt/ros/foxy/x64/share/ament_cmake/cmake)
+[5.609s] -- Found PythonInterp: C:/opt/ros/foxy/x64/python.exe (found suitable version "3.8.3", minimum required is "3") 
+[5.609s] -- Using PYTHON_EXECUTABLE: C:/opt/ros/foxy/x64/python.exe
+[6.609s] -- Found rcldotnet: 0.0.0 (C:/opt/ros2_dotnet_ws/install/rcldotnet/share/rcldotnet/cmake)
+[6.922s] -- Found rosidl_adapter: 1.3.0 (C:/opt/ros2_dotnet_ws/install/rosidl_adapter/share/rosidl_adapter/cmake)
+[7.094s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+[7.484s] -- Found OpenSSL: optimized;C:/opt/ros/foxy/x64/Lib/libcrypto.lib;debug;C:/Program Files/OpenSSL-Win64/lib/VC/libcrypto64MDd.lib (found version "1.1.1g")  
+[7.609s] -- Found FastRTPS: C:/opt/ros/foxy/x64/include  
+[7.891s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+[8.281s] -- Found rmw_implementation_cmake: 1.0.3 (C:/opt/ros/foxy/x64/share/rmw_implementation_cmake/cmake)
+[8.297s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.313s] -- Looking for pthread.h
+[8.875s] -- Looking for pthread.h - not found
+[8.875s] -- Found Threads: TRUE  
+[9.109s] -- Found rcldotnet_common: 0.0.0 (C:/opt/ros2_dotnet_ws/install/rcldotnet_common/share/rcldotnet_common/cmake)
+[9.141s] -- Found dotnet_cmake_module: 0.0.0 (C:/opt/ros2_dotnet_ws/install/dotnet_cmake_module/share/dotnet_cmake_module/cmake)
+[9.563s] CMake Warning (dev) at C:/opt/ros/foxy/x64/Lib/site-packages/cmake/data/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):
+[9.563s]   The package name passed to `find_package_handle_standard_args`
+[9.563s]   (DOTNET_CORE) does not match the name of the calling package (DotNetCore).
+[9.563s]   This can lead to problems in calling code that expects `find_package`
+[9.563s]   result variables (e.g., `_FOUND`) to follow a certain pattern.
+[9.563s] Call Stack (most recent call first):
+[9.563s]   C:/opt/ros2_dotnet_ws/install/dotnet_cmake_module/share/dotnet_cmake_module/cmake/Modules/dotnet/FindDotNetCore.cmake:37 (find_package_handle_standard_args)
+[9.563s]   C:/opt/ros2_dotnet_ws/install/dotnet_cmake_module/share/dotnet_cmake_module/cmake/Modules/FindCSBuild.cmake:20 (find_package)
+[9.563s]   C:/opt/ros2_dotnet_ws/install/dotnet_cmake_module/share/dotnet_cmake_module/cmake/Modules/FindDotNETExtra.cmake:15 (find_package)
+[9.563s]   CMakeLists.txt:14 (find_package)
+[9.578s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[9.578s] 
+[9.578s] -- Found DOTNET_CORE: C:/Program Files/dotnet/dotnet.exe  
+[9.578s] -- Found .NET Core: 7.0.101
+[9.578s] -- Using Framework: netcoreapp2.0
+[9.578s] -- Using Framework: netcoreapp2.0
+[9.578s] -- Using Runtime: win-x64
+[9.594s] -- Found std_msgs: 2.0.5 (C:/opt/ros2_dotnet_ws/install/std_msgs/share/std_msgs/cmake)
+[9.813s] -- Configuring done
+[9.984s] -- Generating done
+[10.000s] -- Build files have been written to: C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/build/string_msgs_hololens_dll
+[10.031s] Invoked command in 'c:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\string_msgs_hololens_dll\build\string_msgs_hololens_dll' returned '0': CMAKE_PREFIX_PATH=%CMAKE_PREFIX_PATH%;c:\opt\ros2_dotnet_ws\install\sensor_msgs_py c:\opt\ros\foxy\x64\Scripts\cmake.EXE c:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\string_msgs_hololens_dll -DCMAKE_INSTALL_PREFIX=c:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\string_msgs_hololens_dll\install\string_msgs_hololens_dll -G Visual Studio 16 2019
+[10.031s] Invoking command in 'c:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\string_msgs_hololens_dll\build\string_msgs_hololens_dll': CL=/MP CMAKE_PREFIX_PATH=%CMAKE_PREFIX_PATH%;c:\opt\ros2_dotnet_ws\install\sensor_msgs_py c:\opt\ros\foxy\x64\Scripts\cmake.EXE --build c:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\string_msgs_hololens_dll\build\string_msgs_hololens_dll --config Release
+[10.250s] Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+[10.250s] Copyright (C) Microsoft Corporation. All rights reserved.
+[10.250s] 
+[10.656s]   Checking Build System
+[10.875s]   C:/opt/ros/foxy/x64/Lib/site-packages/cmake/data/bin/cmake.exe;-version;C:/Program Files/dotnet/dotnet.exe restore;-r;win-x64 string_msgs_hololens_dll_dotnetcore.csproj; C:/Program Files/dotnet/dotnet.exe publish;-r;win-x64 string_msgs_hololens_dll_dotnetcore.csproj -> C:/Users/Jorge/Documents/GitHub/ArtekmedRos2/ShellScripts/string_msgs_hololens_dll/build/string_msgs_hololens_dll/string_msgs_hololens_dll
+[10.984s]   cmake version 3.18.2
+[10.984s]   
+[10.984s]   CMake suite maintained and supported by Kitware (kitware.com/cmake).
+[11.969s]     Determining projects to restore...
+[12.000s] C:\Program Files\dotnet\sdk\7.0.101\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.EolTargetFrameworks.targets(28,5): warning NETSDK1138: The target framework 'netcoreapp2.0' is out of support and will not receive security updates in the future. Please refer to https://aka.ms/dotnet-core-support for more information about the support policy. [C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\string_msgs_hololens_dll\build\string_msgs_hololens_dll\string_msgs_hololens_dll\string_msgs_hololens_dll_dotnetcore.csproj] [C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\string_msgs_hololens_dll\build\string_msgs_hololens_dll\string_msgs_hololens_dll.vcxproj]
+[12.047s] C:\Program Files\dotnet\sdk\7.0.101\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.EolTargetFrameworks.targets(28,5): warning NETSDK1138: The target framework 'netcoreapp2.0' is out of support and will not receive security updates in the future. Please refer to https://aka.ms/dotnet-core-support for more information about the support policy. [C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\string_msgs_hololens_dll\build\string_msgs_hololens_dll\string_msgs_hololens_dll\string_msgs_hololens_dll_dotnetcore.csproj] [C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\string_msgs_hololens_dll\build\string_msgs_hololens_dll\string_msgs_hololens_dll.vcxproj]
+[12.578s]     Restored C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\string_msgs_hololens_dll\build\string_msgs_hololens_dll\string_msgs_hololens_dll\string_msgs_hololens_dll_dotnetcore.csproj (in 353 ms).
+[13.313s]   MSBuild version 17.4.0+18d5aef85 for .NET
+[13.672s]     Determining projects to restore...
+[13.672s] C:\Program Files\dotnet\sdk\7.0.101\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.EolTargetFrameworks.targets(28,5): warning NETSDK1138: The target framework 'netcoreapp2.0' is out of support and will not receive security updates in the future. Please refer to https://aka.ms/dotnet-core-support for more information about the support policy. [C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\string_msgs_hololens_dll\build\string_msgs_hololens_dll\string_msgs_hololens_dll\string_msgs_hololens_dll_dotnetcore.csproj] [C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\string_msgs_hololens_dll\build\string_msgs_hololens_dll\string_msgs_hololens_dll.vcxproj]
+[13.750s] C:\Program Files\dotnet\sdk\7.0.101\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.EolTargetFrameworks.targets(28,5): warning NETSDK1138: The target framework 'netcoreapp2.0' is out of support and will not receive security updates in the future. Please refer to https://aka.ms/dotnet-core-support for more information about the support policy. [C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\string_msgs_hololens_dll\build\string_msgs_hololens_dll\string_msgs_hololens_dll\string_msgs_hololens_dll_dotnetcore.csproj] [C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\string_msgs_hololens_dll\build\string_msgs_hololens_dll\string_msgs_hololens_dll.vcxproj]
+[14.109s]     Restored C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\string_msgs_hololens_dll\build\string_msgs_hololens_dll\string_msgs_hololens_dll\string_msgs_hololens_dll_dotnetcore.csproj (in 252 ms).
+[14.250s] C:\Program Files\dotnet\sdk\7.0.101\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.EolTargetFrameworks.targets(28,5): warning NETSDK1138: The target framework 'netcoreapp2.0' is out of support and will not receive security updates in the future. Please refer to https://aka.ms/dotnet-core-support for more information about the support policy. [C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\string_msgs_hololens_dll\build\string_msgs_hololens_dll\string_msgs_hololens_dll\string_msgs_hololens_dll_dotnetcore.csproj] [C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\string_msgs_hololens_dll\build\string_msgs_hololens_dll\string_msgs_hololens_dll.vcxproj]
+[15.797s] CSC : warning CS1668: Invalid search path 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\atlmfc\lib\x64' specified in 'LIB environment variable' -- 'directory does not exist' [C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\string_msgs_hololens_dll\build\string_msgs_hololens_dll\string_msgs_hololens_dll\string_msgs_hololens_dll_dotnetcore.csproj] [C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\string_msgs_hololens_dll\build\string_msgs_hololens_dll\string_msgs_hololens_dll.vcxproj]
+[15.813s] C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\string_msgs_hololens_dll\src\string_node_manager_function.cs(14,7): error CS0246: The type or namespace name 'Newtonsoft' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\string_msgs_hololens_dll\build\string_msgs_hololens_dll\string_msgs_hololens_dll\string_msgs_hololens_dll_dotnetcore.csproj] [C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\string_msgs_hololens_dll\build\string_msgs_hololens_dll\string_msgs_hololens_dll.vcxproj]
+[15.891s] C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(241,5): error MSB8066: Custom build for 'C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\string_msgs_hololens_dll\build\string_msgs_hololens_dll\CMakeFiles\a03f46ad096a2151e9f29a769a189ad5\string_msgs_hololens_dll.rule' exited with code 1. [C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\string_msgs_hololens_dll\build\string_msgs_hololens_dll\string_msgs_hololens_dll.vcxproj]
+[15.906s] Invoked command in 'c:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\string_msgs_hololens_dll\build\string_msgs_hololens_dll' returned '1': CL=/MP CMAKE_PREFIX_PATH=%CMAKE_PREFIX_PATH%;c:\opt\ros2_dotnet_ws\install\sensor_msgs_py c:\opt\ros\foxy\x64\Scripts\cmake.EXE --build c:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\string_msgs_hololens_dll\build\string_msgs_hololens_dll --config Release

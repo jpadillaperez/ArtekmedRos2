@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = string_node_manager_dotnetcore
+build_property.ProjectDir = C:\Users\Jorge\Documents\GitHub\ArtekmedRos2\ShellScripts\String_msgs_hololens\build\string_node_manager\string_node_manager\
